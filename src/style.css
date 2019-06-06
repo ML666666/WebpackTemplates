@@ -1,0 +1,37 @@
+@font-face{
+    font-family: 'myFont';
+    src: url('./font/Cabin-Bold.ttf') format('ttf')
+}
+body{
+    background: rgb(229, 145, 145);
+}
+.hello {
+    color: red;
+    font-family: myFont;
+    background: url('./image/pro_03.png') no-repeat center center;
+}
+.alert {
+    transition: 0.4s;
+    padding: 15px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    color: #3c763d;
+    background-color: #dff0d8;
+}
+.alert_1 {
+    transition: 0.4s;
+    padding: 15px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    color: #fff;
+    background-color: transparent;
+}
+.order[order-state="new"]{
+    color:red;
+}  
+.order[order-state="new"]{
+    
+}
+
+.invalid { border-color: red; }
+.error { color: red }
